@@ -86,6 +86,19 @@ a {
     margin: 0px 0px -9px 0px;
 }
 
+.wireframe-image-rotate {
+    max-width: 300px;
+    width: 100%;
+    transform: rotate(90deg);   
+}
+
+.wireframe-image {
+    max-width: 300px;
+    width: 100%;  
+}
+
+
+
 /* Footer
 -------------------------------------------------------------*/
 
