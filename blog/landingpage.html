@@ -1,49 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Richard's Blog </title>
-    <meta charset="UTF-8">
-    <link href="../styles/main.css" rel="stylesheet" type="text/css">
-    </head>
-  <body>
-    <img class="bannerimage" src="../images/banner.jpg" alt="Image broken">
-    <nav class="menu"> 
-        <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="../blog/landingpage.html">Blogs</a></li>  
-        <li><a href="../project/project.html">Project</a></li>
-        </ul> 
-    </nav>
-    <div class="grid">
-        <div class="row"><h1 id=grid>Cultural Blogs</h1></div>
-        <div class="row"><hr></div>
-        <div class="row">
-            <div class="col-1" style="text-align: center"><a href="c1-reflection-blog.html"><img src="http://placekitten.com/300/300" alt="image"></a></div>
-            <div class="col-1" style="text-align: center"><a href="c1-time-and-habits-blog.html"><img src="http://placekitten.com/300/300" alt="image"></a></div>
-            <div class="col-1" style="text-align: center"><a href="c2-emotional-intelligence.html"><img src="http://placekitten.com/300/300" alt="image"></a></div>
-        </div>
-        <div class="row">
-                <div class="col-1" style="text-align: center"><a href="c1-reflection-blog.html"><h2 id=grid>C1 Reflection</h2></a></div>
-                <div class="col-1" style="text-align: center"><a href="c1-time-and-habits-blog.html"><h2 id=grid>C1 Time and Habits</h2></a></div>
-                <div class="col-1" style="text-align: center"><a href="c2-emotional-intelligence.html"><h2 id=grid>Emotional Intelligence</h2></a></div>
-        </div> 
-    </div>  
 
- 
-    <div class="grid">    
-        <div class="row"><h1 id=grid>Technical Blogs</h1></div>
-        <div class="row"><hr></div>
-        <div class="row">
-            <div class="col-1" style="text-align: center"><a href="t2-html-css-dom-p1.html"><img src="http://placekitten.com/300/300" alt="image"></a></div>
-            <div class="col-1" style="text-align: center"><a href="t2-html-css-dom-p2.html"><img src="http://placekitten.com/300/300" alt="image"></a></div>
-            <div class="col-1" style="text-align: center"><img src="http://placekitten.com/300/300" alt="image"></div>
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+
+<body>
+    <div class="grid">
+        <div class="section hero">
+            <div class="container">
+                <div class="row">
+                    <div class="twelve columns">
+                        <img class="banner" src="../images/banner.jpg">
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="row">
-                <div class="col-1" style="text-align: center"><a href="t2-html-css-dom-p1.html"><h2 id=grid>T2 HTML CSS DOM Part 1</h2></a></div>
-                <div class="col-1" style="text-align: center"><a href="t2-html-css-dom-p2.html"><h2 id=grid>T2 HTML CSS DOM Part 2</h2></a></div>
-                <div class="col-1" style="text-align: center"><h2 id=grid>Placeholder</h2></div>
-        </div>  
-  
-    </div>
-  </body>
+        <div class="section navigation" role="navigation">
+            <div class="container">
+                <div class="row navigation2">
+                    <div class="four columns">
+                        <h3 class="main-menu">
+                            <a href="../index.html">Home</a>
+                        </h3>
+                    </div>
+                    <div class="four columns">
+                        <h3 class="main-menu">
+                            <a href="../blog/landingpage.html">Blogs</a>
+                        </h3>
+                    </div>
+                    <div class="four columns">
+                        <h3 class="main-menu">
+                            <a href="../project/project.html">Project</a>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section content">
+            <div class="container">
+                <div class="row">
+                    <div class="twelve columns" >
+                      <h3 class="blog-heading">Cultural Blogs</h3>
+                      <hr class="blog-line">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="four columns" >
+                        <a href="c1-reflection-blog.html">
+                        <img class="landingpage-image" src="../images/torres.jpg">
+                        <h5 class="blog-subtitle">C1 Reflection</h5></a>
+                    </div>
+                    <div class="four columns" >
+                        <a href="c1-time-and-habits-blog.html">
+                        <img class="landingpage-image" src="../images/torres.jpg">
+                        <h5 class="blog-subtitle">C1 Time and Habits</h5></a>
+                    </div>
+                    <div class="four columns" >
+                        <a href="c2-emotional-intelligence.html">
+                        <img class="landingpage-image" src="../images/torres.jpg">
+                        <h5 class="blog-subtitle">C2 Emotional Intelligence</h5></a>
+                    </div>
+                </div>    
+                <div class="row">
+                    <div class="twelve columns">
+                       <h3 class="blog-heading">Technical Blogs</h3>
+                       <hr class="blog-line">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="four columns">
+                        <a href="t2-html-css-dom-p1.html">
+                        <img class="landingpage-image" src="../images/torres.jpg">
+                        <h5 class="blog-subtitle">T2 HTML CSS DOM Part 1</h5></a>
+                    </div>
+                    <div class="four columns">
+                        <a href="t2-html-css-dom-p2.html">
+                        <img class="landingpage-image" src="../images/torres.jpg">
+                        <h5 class="blog-subtitle">T2 HTML CSS DOM Part 2</h5></a>
+                    </div>
+                    <div class="four columns">
+                        <a href="placeholder">
+                        <img class="landingpage-image" src="../images/torres.jpg">
+                        <h5 class="blog-subtitle">Placeholder</h5></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div>
+        <div class="section footer">
+            <div class="container">
+                <div class="row">
+                    <div class="twelve columns">
+                        <p class="footer-text">Footer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+</body>
 </html>

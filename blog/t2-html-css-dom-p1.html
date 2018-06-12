@@ -1,44 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Blog post </title>
+
+<head>
+    <title></title>
     <meta charset="UTF-8">
-    <link href="../styles/main.css" rel="stylesheet" type="text/css">
-  </head>
-    <body>
-        <div>
-            <img class="bannerimage" src="../images/banner.jpg" alt="Image broken">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+
+<body>
+    <div class="grid">
+        <div class="section hero">
+            <div class="container">
+                <div class="row">
+                    <div class="twelve columns">
+                        <img class="banner" src="../images/banner.jpg">
+                    </div>
+                </div>
+            </div>
         </div>
-        <nav class="menu">
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../blog/landingpage.html">Blogs</a></li>  
-                <li><a href="../project/project.html">Project</a></li>
-            </ul>  
-        </nav>
-        <h1>Technical Blog Part 1</h1>
-          <h2>Can you think of an analogy to describe HTML, CSS and the DOM? How would you 
-              describe it to your non-technical friend?</h2>
-            <p>If you were to think of a bicycle being a website, then HTML are all the 
-                components of the bike; the frame, wheels, handlebars and seat. CSS is 
-                giving these components their visual specifics; colour of the frame, width
-                of the handlebars, height and padding of the seat. The DOM is how the 
-                browser interprets the website (it is not directly created by a person, 
-                as opposed to HTML and CSS), sticking with the bicycle, it will see the 
-                bike as a set of structered components. The top level would be the bike as 
-                a whole, underneath that you have the frame, the next level down could be 
-                components that attach to the frame, like the handlebar. Going even further
-                to fourth level you have objects attaching to the handlebar, like brake 
-                levers and a bell.
-            </p>
-          <h2>What is meant by boxifying design?</h2>
-            <p>Looking at a design and identifying how the design can be partitioned in 
-                squares. These squares can then be developed with HTML and separately 
-                styled with CSS.
-            </p>
-          <h2>What is the box model?</h2>
-            <p>CSS uses boxes that wrap around HTML elements so that these elements can 
-                be configured with padding, borders and margin. 
-            </p>
-    </body>
-</html>
+        <div class="section navigation" role="navigation">
+            <div class="container">
+                <div class="row navigation2">
+                    <div class="four columns">
+                        <h3 class="main-menu">
+                            <a href="../index.html">Home</a>
+                        </h3>
+                    </div>
+                    <div class="four columns">
+                        <h3 class="main-menu">
+                            <a href="../blog/landingpage.html">Blogs</a>
+                        </h3>
+                    </div>
+                    <div class="four columns">
+                        <h3 class="main-menu">
+                            <a href="../project/project.html">Project</a>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section content">
+            <div class="container">
+              <div class="row">
+                <div class="twelve columns">
+                  <h3 class="title">Technical Blog Part 1</h3>
+                </div>
+                <div class="row">
+                  <div class="twelve columns">
+                    <h5>Can you think of an analogy to describe HTML, CSS and the DOM? How would you 
+                      describe it to your non-technical friend?</h5>
+                      <p class="plain-content">If you were to think of a bicycle being a website, then HTML are all the 
+                      components of the bike; the frame, wheels, handlebars and seat. CSS is 
+                      giving these components their visual specifics; colour of the frame, width
+                      of the handlebars, height and padding of the seat. The DOM is how the 
+                      browser interprets the website (it is not directly created by a person, 
+                      as opposed to HTML and CSS), sticking with the bicycle, it will see the 
+                      bike as a set of structered components. The top level would be the bike as 
+                      a whole, underneath that you have the frame, the next level down could be 
+                      components that attach to the frame, like the handlebar. Going even further
+                      to fourth level you have objects attaching to the handlebar, like brake 
+                      levers and a bell.</p>
+                    <h5>What is meant by boxifying design?</h5>
+                      <p class="plain-content">
+                      Looking at a design and identifying how the design can be partitioned in 
+                      squares. These squares can then be developed with HTML and separately 
+                      styled with CSS.</p>
+                    <h5>What is the box model?</h5>
+                      <p class="plain-content">
+                      CSS uses boxes that wrap around HTML elements so that these elements can 
+                      be configured with padding, borders and margin. </p>
+                  </div>
+                </div>  
+              </div>    
+            </div>
+        </div>
+      </div>
+      <div class="section footer">
+          <div class="container">
+            <div class="row">
+              <div class="twelve columns">
+                <p class="footer-text">Footer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</body>
+           
